@@ -21,7 +21,7 @@ export default async function handler(req, res) {
           event_name: 'Lead',
           event_time: currentTimestamp,
           action_source: 'website',
-          event_source_url: data.source_url || 'https://educationbookpublication.vercel.app/',
+          event_source_url: data.source_url || 'https://futurebookpublications.vercel.app/',
           user_data: {
             client_ip_address: clientIp,
             client_user_agent: userAgent
